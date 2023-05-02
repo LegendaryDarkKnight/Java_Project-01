@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_2005033.Home">
+    <children>
+        <Button fx:id="addId" layoutX="14.0" layoutY="228.0" mnemonicParsing="false" onAction="#openAdder" prefHeight="84.0" prefWidth="176.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Add Movie" textAlignment="CENTER" textFill="#070010">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input></Reflection>
+         </effect></Button>
+        <Button layoutX="530.0" layoutY="332.0" mnemonicParsing="false" onAction="#openSearchMovies" prefHeight="84.0" prefWidth="176.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Search Movies" textFill="#070010">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input></Reflection>
+         </effect>
+        </Button>
+        <Button fx:id="button2" layoutX="190.0" layoutY="228.0" mnemonicParsing="false" onAction="#openSearchProduction" prefHeight="84.0" prefWidth="176.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="In The Company" textFill="#070010">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input></Reflection>
+         </effect></Button>
+        <Button layoutX="366.0" layoutY="228.0" mnemonicParsing="false" onAction="#TransferMovie" prefHeight="84.0" prefWidth="176.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Transfer Movie" textFill="#070010">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input></Reflection>
+         </effect>
+        </Button>
+        <Label fx:id="prodName" layoutX="16.0" layoutY="368.0" prefHeight="84.0" prefWidth="498.0" style="-fx-background-color: transparent;" textFill="#f2f0f0">
+            <font>
+                <Font name="Times New Roman Bold" size="24.0" />
+            </font>
+         <effect>
+            <Reflection />
+         </effect>
+        </Label>
+      <Label fx:id="picture" layoutX="440.0" layoutY="14.0" prefHeight="200.0" prefWidth="300.0" style="" textFill="#fdfafa" />
+      <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="300.0" layoutX="140.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="14.0" layoutY="38.0" mnemonicParsing="false" onAction="#Exiter" prefHeight="55.0" prefWidth="103.0" text="LogOut">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

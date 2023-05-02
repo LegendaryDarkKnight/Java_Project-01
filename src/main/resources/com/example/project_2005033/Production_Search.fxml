@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-image: url(Image/rsz_background1.jpg);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_2005033.ProductionSearch">
+   <children>
+      <Button layoutX="453.0" layoutY="150.0" mnemonicParsing="false" onAction="#MaxRevenue" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Maximum Revenue" textFill="#01000d">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+            </Reflection>
+         </effect></Button>
+      <Button layoutX="14.0" layoutY="150.0" mnemonicParsing="false" onAction="#totalProf" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Total Profit" textFill="#01000d">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+            </Reflection>
+         </effect></Button>
+      <Button layoutX="235.0" layoutY="225.0" mnemonicParsing="false" onAction="#recentMovies" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Most Recent Movies" textFill="#01000d">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+            </Reflection>
+         </effect></Button>
+      <Button layoutX="8.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="75.0" prefWidth="202.0" style="-fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink);" text="Back to Main Menu" textFill="#01000d">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+            </Reflection>
+         </effect></Button>
+   </children>
+</AnchorPane>

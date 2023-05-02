@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="445.0" prefWidth="701.0" style="-fx-background-image: url(Image/background4.png);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_2005033.AllDetails">
+   <children>
+      <Label fx:id="name_1" layoutX="22.0" layoutY="120.0" prefHeight="69.0" prefWidth="346.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font></Label>
+      <Label fx:id="genre" layoutX="20.0" layoutY="197.0" prefHeight="69.0" prefWidth="671.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="revenue" layoutX="22.0" layoutY="289.0" prefHeight="69.0" prefWidth="298.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="year" layoutX="389.0" layoutY="120.0" prefHeight="69.0" prefWidth="298.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutX="389.0" layoutY="284.0" prefHeight="69.0" prefWidth="298.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="profit" layoutX="389.0" layoutY="363.0" prefHeight="69.0" prefWidth="298.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="budget" layoutX="22.0" layoutY="368.0" prefHeight="69.0" prefWidth="298.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="production" layoutX="320.0" layoutY="14.0" prefHeight="69.0" prefWidth="331.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-color: transparent;" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="56.0" prefHeight="49.0" prefWidth="258.0" style="-fx-background-color: transparent;" text="Press X to Go back">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

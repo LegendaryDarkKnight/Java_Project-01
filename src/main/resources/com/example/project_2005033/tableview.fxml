@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="755.0" style="-fx-background-image: url(Image/background.jpg);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_2005033.TableViewController">
+   <children>
+      <TableView fx:id="tableView" layoutX="45.0" layoutY="119.0" prefHeight="351.0" prefWidth="638.0">
+         <columns>
+            <TableColumn fx:id="movieTitle" prefWidth="167.33331298828125" style="-fx-text-fill: white; -fx-background-color: linear-gradient(to right,#4a0480,blue); -fx-font-family: Times New Roman;" text="Title" />
+            <TableColumn fx:id="releaseYear" prefWidth="92.00003051757812" style="-fx-background-color: linear-gradient(to right,#4a0480,blue); -fx-text-fill: white;" text="Year" />
+            <TableColumn fx:id="productionCompany" prefWidth="271.0" style="-fx-background-color: linear-gradient(to right,#021c52, blue); -fx-text-fill: white;" text="Production" />
+            <TableColumn fx:id="more" minWidth="0.0" prefWidth="105.33331298828125" style="-fx-background-color: linear-gradient(to left, blue, white);" text="More" />
+         </columns></TableView>
+      <Button layoutX="45.0" layoutY="15.0" mnemonicParsing="false" onAction="#exiter" prefHeight="42.0" prefWidth="126.0" text="Exit">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font></Button>
+      <Label fx:id="prompt" layoutX="209.0" layoutY="11.0" prefHeight="50.0" prefWidth="443.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

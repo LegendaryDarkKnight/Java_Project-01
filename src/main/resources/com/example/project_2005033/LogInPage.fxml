@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="680.0" style="-fx-background-color: linear-gradient(to right, #6526bd, #9c1fbf);" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_2005033.LogInPage">
+   <children>
+      <Button fx:id="logIn" layoutX="192.0" layoutY="176.0" mnemonicParsing="false" onAction="#welcome" prefHeight="43.0" prefWidth="147.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(to left, #d11df5, #9c1fbf); -fx-border-color: linear-gradient(to right, purple, pink); -fx-border-radius: 10;" text="Log In" textFill="#000d0b">
+         <font>
+            <Font name="Times New Roman Bold" size="29.0" />
+         </font>
+         <effect>
+            <Reflection>
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input></Reflection>
+         </effect></Button>
+      <TextField fx:id="userName" layoutX="14.0" layoutY="101.0" onMouseClicked="#mouseOnBox" onMouseEntered="#mouseOnBox" onMouseExited="#mouseOutBox" prefHeight="64.0" prefWidth="336.0" promptText="Enter UserName" style="-fx-background-color: #3a055e; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: linear-gradient(to right, purple, pink); -fx-border-width: 2; -fx-text-fill: white;">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect></TextField>
+      <Label fx:id="texter" layoutX="68.0" layoutY="19.0" prefHeight="75.0" prefWidth="381.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-text-fill: white;" text="Welcome to Movie Database">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font></Label>
+      <Button fx:id="info" layoutX="482.0" layoutY="34.0" mnemonicParsing="false" onAction="#info" prefHeight="41.0" prefWidth="92.0" text="Info">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
